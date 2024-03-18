@@ -23,7 +23,10 @@ def main():
             encode(password)
             print("Your password has been encoded and stored!\n")
         
-        
+        # decoder goes here
+
+        elif menu_sel == 3:
+            exit()
 
 if __name__ == "__main__":
     main()
